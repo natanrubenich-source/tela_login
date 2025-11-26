@@ -37,9 +37,10 @@ body{
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.6);
 }
 
+
 .login-container h2{
     margin-bottom: 35px;
-    font-size: 32px;
+    font-size: 35px;
     font-weight: 800;
     letter-spacing: 1px;
     color: #384457;
@@ -47,8 +48,31 @@ body{
 
 .login-container input{
     width: 100%;
-    
+    margin: 15px 0;
+    padding: 15px 0;
+    border-radius: 12px;
+    border: 2px solid #cec7d1;
+    font-size: 16px;
+    box-shadow: 0 4px 2px rgba(74, 50, 115, 0.129);
+    transition: all 0.3s ease;
+}
 
+.login-container input:focus{
+    outline: none; /* Tirar a borda padrão */
+    border-color: #667eea;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 2px rgba(50, 31, 83, 0.227);
+}
+
+.login-container button{
+    width: 100%;
+    padding: 18px;
+    margin-top: 25px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    background: linear-gradient(135deg, #485ec3, #895bb7);
+    
 }
 
     </style>
